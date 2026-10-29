@@ -5,14 +5,12 @@
     "": {
       "name": "create-fastify-dev",
       "dependencies": {
-        "fastify": "^5.12.7",
-        "fastify-plugin": "^6.0.1",
-        "zod": "^4.6.7",
-      },
-      "devDependencies": {
         "@types/bun": "^1.4.4",
         "@types/node": "^26.6.6",
+        "fastify": "^5.12.7",
+        "fastify-plugin": "^6.0.1",
         "typescript": "^7.0.2",
+        "zod": "^4.6.7",
       },
     },
   },
@@ -166,7 +164,5 @@
     "zod": ["zod@4.6.7", "", {}, "sha512-g8W2D2kU6a8untc053fX1uVBKzM7yqAxW/3zwk83+6RyF2+SKOuV+c0wBDhUwzV1PaGapmZH+rmcUzPf+3CGwg=="],
 
     "ajv/fast-uri": ["fast-uri@3.1.9", "", {}, "sha512-hS/0Wt3Ya043oKXs0sIxrMpKQITXhMLIrVAKKXi4gozGC9v7YRWVnXIZzjNPTO02M9BdxLCWqK1yRXgNziVyJQ=="],
-
-    "bun-types/undici-types": ["undici-types@8.12.3", "", {}, "sha512-EXE4ydL3S76dFb27UFjNVZHTyv/TLdATj/KUe29ptdcg6qXL48J2tZ3126E5kICj5jn781OR+XlVH1N6Mz8jbA=="],
   }
 }
